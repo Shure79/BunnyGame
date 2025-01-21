@@ -10,8 +10,9 @@ function showHoldImage() {
     var img = document.getElementById("image");
     img.src = "res/MH.png";
     img.style.display = "block";
-    document.getElementById("message").innerHTML = "Hase lauf!";
+    document.getElementById("message").innerHTML = "Ziehe Karte";
     document.getElementById("message").style.color = "#000088";
+    setTimeout(getRandomNumber, 500);
 }
 
 function getRandomNumber() {
